@@ -1,0 +1,112 @@
+valor1 = float(input("Digite o primeiro valor: "))
+valor2 = float(input("Digite o segundo valor: "))
+
+print("\nMenu de Opcoes:")
+print("1 - Soma")
+print("2 - Subtracao")
+print("3 - Multiplicacao")
+print("4 - Divisao")
+
+
+opcao = int(input("escolha entre 1,2,3 e 4: "))
+if opcao == 1:
+    resultado = valor1 + valor2
+    print ("A soma dos valores é: ",resultado)
+elif opcao == 2:
+    resultado = valor1 - valor2
+    print ("A subtração dos valores é: ", resultado)
+elif opcao == 3:
+    resultado = valor1 * valor2
+    print ("A multiplicacao dos valores é: ", resultado)
+elif opcao == 4:
+    if valor2 != 0:
+        resultado = valor1 / valor2
+        print ("A divisao dos valores é: ",resultado,)
+else:
+    print("Opcao invalida. escolha uma opcao valida 1,2,3 e 4.")
+
+-------------
+
+gabarito = "A"
+
+resposta_aluno = input("Digite a sua resposta A, B, C ou D: ")
+
+
+if resposta_aluno == gabarito:
+    print("Resposta correta")
+else:
+    print("Resposta incorreta.")
+
+--------------
+
+valor_peca = float(input("digite o valor da peça de roupa: "))
+
+print("Opcoes de pagamento:")
+print("1 - À vista")
+print("2 - 2 vezes")
+print("3 - 3 vezes")
+
+opcao_pagamento = int(input("Escolha a opcao de pagamento (1/2/3): "))
+
+if opcao_pagamento == 1:
+    valor_parcela = valor_peca
+    total = valor_peca
+    num_parcelas = 1
+elif opcao_pagamento == 2:
+    valor_parcela = valor_peca / 2
+    total = valor_peca
+    num_parcelas = 2
+elif opcao_pagamento == 3:
+    valor_parcela = valor_peca / 3
+    total = valor_peca
+    num_parcelas = 3
+else:
+    print("Opção de pagamento invalida. Escolha 1, 2 ou 3.")
+
+print("Você escolheu pagar em", num_parcelas, "parcelas de R$ ",valor_parcela, "cada.")
+print("O total a ser pago é de R$ ",total,".")
+
+--------------
+
+valor1 = float(input("Digite o primeiro numer "))
+valor2 = float(input("Digite o segundo valor: "))
+
+if valor1 == valor2:
+    print("Os valores digitados são iguais.")
+else:
+    if valor1 > valor2:
+        maior = valor1
+        menor = valor2
+    else:
+        maior = valor2
+        menor = valor1
+    print("O maior valor é: ", maior)
+    print("O menor valor é: ", menor)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
